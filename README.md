@@ -6,15 +6,6 @@
 
 For week 13 of the UW Coding Bootcamp my homework invited me to build the back end to an E-Commerce Site by modifying starter code. This application uses Express.js API and Sequelize to interact with a MySQL database. This application displays the creation of a database using MySQL with models and associations. Then it demonstrates the API Routes to perform RESTful CRUD operations displayed in my walk through videos, provided below. 
 
-
-## User Story
-
-```md
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
-```
-
 ## Built With
 
 * [MySQL](https://www.mysql.com/)
@@ -28,14 +19,13 @@ SO THAT my company can compete with other e-commerce companies
 * [See Live Site](https://github.com/spencee1315/hw_13)
 
 ## Installation 
-The user should clone the repository from GitHub. This application requires Node.js, Express.js, and Sequelize. To connect to the database run `mysql -u root -p` and enter password from .env file. Then source the schema.sql. To seed the file run `npm run seed`. Finally to connect to the server run `npm start`. 
+The user should clone the repository from GitHub. This application requires Node.js, Express.js, and Sequelize. To connect to the database run `mysql -u root -p` and enter password from .env file. Then source the schema.sql. To seed the file run `npm run seed`. Finally to connect to the server run `node server.js`. 
 
 ## Usage 
 This application will allow users to view, add, edit, and delete categories, products, and tags.
 
-View video to see MySQL walk through via [Screencastify]()<br>
-View video to walk through of the API routes. [Screencastify]()<br>
-View video to see Insomnia walk through via [Screencastify]()
+View video to see installation/setup via [Screencastify](https://drive.google.com/file/d/1RurBt3jg12f5Vo3xFSQETzme95zj-lIr/view)<br>
+View video to walk through of the API routes via Insomnia. [Screencastify](https://drive.google.com/file/d/1c8ITifjCBoZNJ-cPbqfhG_b75vh_H1LL/view)
 
 ## License 
 This project is license under MIT
